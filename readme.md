@@ -4,8 +4,7 @@
 <h3 align="center"> Desafio 01 - Blog </h3>
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/91436176/224552484-f2022b2c-6615-457f-b7e5-afdee1692932.png
-" width="700px" />
+![Screenshot_6](https://user-images.githubusercontent.com/91436176/224553068-382d30d7-e150-47ab-ba28-af1870901713.png)
 </div>
 
 <p align="center"><a href="https://blog-mesquitadev.vercel.app/">Clique aqui</a> para ver o projeto.</p>
@@ -15,8 +14,7 @@
 <h3 align="center"> Desafio 04 - Login </h3>
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/91436176/224552763-f6ff3972-8c27-4b8e-9f40-32b340e8eb76.png
-" width="700px" />
+![Screenshot_7](https://user-images.githubusercontent.com/91436176/224553069-a6efb30e-4969-47f5-b3fb-69492f062e83.png)
 </div>
 
 <p align="center"><a href="https://login-mesquitadev.vercel.app/">Clique aqui</a> para ver o projeto.</p>
@@ -26,8 +24,7 @@
 <h3 align="center"> Desafio 06 - Loki - Landing Page </h3>
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/91436176/224552978-9273eb3a-bff8-4149-b8a4-f8f63bd23f63.png
-" width="700px" />
+![Screenshot_8](https://user-images.githubusercontent.com/91436176/224553071-4d036a28-9b58-4626-bbf0-d7b7652ed413.png)
 </div>
 
 <p align="center"><a href="https://loki-mesquitadev.vercel.app/">Clique aqui</a> para ver o projeto.</p>
