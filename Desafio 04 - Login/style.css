@@ -1,0 +1,258 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: #fff;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  height: 100vh;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  display: block;
+  outline: none;
+}
+
+.image {
+  display: flex;
+  height: 100vh;
+  background-color: #f7fafc;
+}
+
+.image img {
+  padding: 0 160px;
+}
+
+.forms p {
+  font-family: "Merriweather";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #1a202c;
+  margin-bottom: 8px;
+}
+
+.forms h1 {
+  font-family: "Merriweather";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 33px;
+  color: #1a202c;
+  margin-bottom: 40px;
+}
+
+.forms form label {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1a202c;
+}
+
+.forms form input {
+  border: 1px solid #e8e8e8;
+  border-radius: 5px;
+  max-width: 350px;
+  width: 100%;
+  padding: 16px 0 16px 20px;
+  margin: 12px 0;
+}
+
+.forms form input::placeholder {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1a202c;
+}
+
+.span-required {
+  font-size: 12px !important;
+  margin: -8px 0 8px 1px;
+  color: #e63636 !important;
+  display: none;
+}
+
+.forms form .details {
+  display: flex;
+  max-width: 350px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 16px 0 28px 0;
+}
+
+.wrapper {
+  align-items: center;
+  display: inline-flex;
+  position: relative;
+  font-size: 14px !important;
+  line-height: 17px !important;
+}
+
+.wrapper .ye {
+  position: relative;
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  background-color: #f7fafc;
+  border: 2px solid #e8e8e8;
+  border-radius: 100%;
+  margin-right: 12px;
+}
+
+.wrapper .ye::before {
+  position: absolute;
+  bottom: 4px;
+  right: -1px;
+  border: solid #39ca74;
+  transform: rotate(45deg);
+  border-top-width: 0;
+  border-left-width: 0;
+  width: 8px;
+  height: 15px;
+  border-width: 0 2px 2px 0;
+  z-index: 2;
+}
+
+.wrapper .ye::after {
+  position: absolute;
+  background: white;
+  bottom: 5px;
+  right: 0;
+  width: 0px;
+  height: 18px;
+  transform: rotate(45deg);
+  z-index: 1;
+}
+
+.wrapper input[type="checkbox"] {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  opacity: 0;
+}
+
+.wrapper input[type="checkbox"]:checked + .ye {
+  border-color: #39ca74;
+}
+
+.wrapper input[type="checkbox"]:checked + .ye::before {
+  content: "";
+}
+
+.wrapper input[type="checkbox"]:checked + .ye::after {
+  content: "";
+}
+
+.forms form .details a {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #2b6cb0;
+}
+
+.login {
+  background: #04c45c;
+  border-radius: 5px;
+  padding: 16px 0;
+  text-align: center;
+  max-width: 350px;
+  width: 100%;
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.button_google {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  background: #1a202c;
+  border-radius: 5px;
+  max-width: 350px;
+  width: 100%;
+  padding: 16px 0;
+}
+
+.button_google img {
+  width: 20px;
+  height: 20px;
+}
+
+.forms .registrar {
+  max-width: 233px;
+  position: absolute;
+  bottom: 50px;
+  width: 100%;
+}
+
+.forms span {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1a202c;
+}
+
+a.register {
+  color: #2b6cb0;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin-left: 4px;
+}
+
+@media screen and (max-width: 999px) {
+  body {
+    grid-template-columns: 1fr;
+    height: 0;
+    padding: 70px 32px;
+  }
+  .image {
+    display: none;
+  }
+  .forms .registrar {
+    max-width: 233px;
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+}

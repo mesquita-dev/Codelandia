@@ -1,0 +1,136 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "B612";
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  border: none;
+  outline: none;
+  border-radius: 0.3rem;
+  padding: 1.5rem 2.7rem;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  color: var(--white);
+  text-transform: uppercase;
+}
+
+:root {
+  --yellow: #ffa800;
+  --blue: #0073d2;
+  --white: #ffffff;
+  --dark: #131318;
+}
+
+.background-loki {
+  background: url(./assets/background.jpg) rgba(0, 0, 0, 0.7);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+  height: 100vh;
+}
+
+main {
+  z-index: 1;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.disponibility {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  color: var(--white);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 45px 0 35px 0;
+  text-align: center;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 9.6rem;
+  line-height: 11.7rem;
+  color: var(--white);
+  margin-bottom: 12rem;
+  text-align: center;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  gap: 7.3rem;
+}
+
+.img-loki {
+  width: 184px;
+  height: 267px;
+  border-radius: 10px;
+}
+
+article {
+  height: 267px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+article .desc {
+  max-width: 72.2rem;
+  width: 100%;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 3.2rem;
+  color: var(--white);
+}
+
+article .info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+article .info .duration,
+article .info .rating {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+}
+
+article .info p {
+  max-width: 10rem;
+  width: 100%;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  color: var(--white);
+}
+
+article .buttons {
+  display: flex;
+  gap: 2.1rem;
+  align-items: center;
+}
+
+article .buttons .watch-now {
+  background: var(--blue);
+}
+
+article .buttons .trailer {
+  background: var(--dark);
+  border: 1px solid var(--white);
+}
