@@ -11,41 +11,52 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet" />
   </head>
   <body>
-    <header class="container">
-      <img src="assets/logo-min.svg" alt="" />
-      <img src="assets/logo-riot.png" alt="" />
-      <img src="assets/share.svg" alt="" / class="share">
-    </header>
+    <div class="loading-container">
+      <header class="container">
+        <img src="assets/logo-min.svg" alt="" />
+        <img src="assets/logo-riot.png" alt="" />
+        <img src="assets/share.svg" alt="" / class="share">
+      </header>
+      <div class="polygon"></div>
+      <main class="container">
+        <section class="left">
+          <img src="assets/logo-valorant.png" alt="" class="logo-characters" />
+          <article class="characters">
+            <div class="img-group">
+              <div class="img-border"></div>
+              <a href="#">
+                <img src="assets/omen.png" alt="agente omen" />
+              </a>
+            </div>
+            <div class="img-group">
+              <div class="img-border"></div>
+              <a href="#">
+                <img src="assets/sova.png" alt="agente sova" />
+              </a>
+            </div>
+            <div class="img-group">
+              <div class="img-border"></div>
+              <a href="#">
+                <img src="assets/sage.png" alt="agente sage" />
+              </a>
+            </div>
+          </article>
+        </section>
+        <section class="right">
+          <img src="assets/phoenix.png" alt="" />
+        </section>
+      </main>
+    </div>
 
-    <div class="polygon"></div>
-    <main class="container">
-      <section class="left">
-        <img src="assets/logo-valorant.png" alt="" class="logo-characters" />
-        <article class="characters">
-          <div class="img-group">
-            <div class="img-border"></div>
-            <a href="#">
-              <img src="assets/omen.png" alt="agente omen" />
-            </a>
-          </div>
-          <div class="img-group">
-            <div class="img-border"></div>
-            <a href="#">
-              <img src="assets/sova.png" alt="agente sova" />
-            </a>
-          </div>
-          <div class="img-group">
-            <div class="img-border"></div>
-            <a href="#">
-              <img src="assets/sage.png" alt="agente sage" />
-            </a>
-          </div>
-        </article>
-      </section>
-      <section class="right">
-        <img src="assets/phoenix.png" alt="" />
-      </section>
-    </main>
+    <div class="loading-page">
+      <img src="assets/logo-loading.svg" alt="" id="svg" />
+    </div>
     <script src="js/script.js" type="module"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"
+      integrity="sha512-f8mwTB+Bs8a5c46DEm7HQLcJuHMBaH/UFlcgyetMqqkvTcYg4g5VXsYR71b3qC82lZytjNYvBj2pf0VekA9/FQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
   </body>
 </html>

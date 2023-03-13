@@ -25,4 +25,12 @@
 
 ##
 
+<h3 align="center"> Desafio 07 - Valorant - Landing Page </h3>
+
+![Screenshot_8](https://user-images.githubusercontent.com/91436176/224553071-4d036a28-9b58-4626-bbf0-d7b7652ed413.png)
+
+<p align="center"><a href="https://loki-mesquitadev.vercel.app/">Clique aqui</a> para ver o projeto.</p>
+
+##
+
  <p> Feito com 🖤 por Lucas Mesquita. <a href="https://www.linkedin.com/in/mesquita-dev/">👋 Entre em contato comigo!</a></p>
